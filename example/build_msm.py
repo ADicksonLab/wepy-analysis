@@ -9,10 +9,10 @@ from csnanalysis.csn import CSN
 from csnanalysis.matrix import *
 
 sys.path.insert(0, str(Path('.') / 'src'))
-from wepyanalysis.featurization.distance import *
-from wepyanalysis.datasets.generator import *
-from wepyanalysis.msm.builder import *
-from wepyanalysis.hdf5 import *
+from wepyanalysis.featurization.distance import DistanceFeatureGenerator
+from wepyanalysis.datasets.generator import load_weights_list, load_feature_list, build_features_matrix, normalization, generate_random_dataset, build_time_lagged_dataset
+from wepyanalysis.msm.builder import cluster_data, generate_cluster_labels, build_or_load_properties, build_count_matrix, calculate_mfpt_and_fptd
+from wepyanalysis.hdf5 import link_wepy_runs
 
 #### This code provides an analysis framework to build MSM from WE data. 
 #### It assumes the unbinding simulations are done and builds evertything after that. 
