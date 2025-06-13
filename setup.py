@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import versioneer
 
 from glob import glob
 from os.path import basename
@@ -9,12 +8,11 @@ from os.path import splitext
 
 setup(
     name='WepyAnalysis',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version='0.1',
     description='Tools for analyzing weighted ensemble (WE) simulation data from Wepy',
     author='Ceren Kilinc, Samik Bose, Alex Dickson',
     author_email='kilincce@msu.com',
-    license="MIT"
+    license="MIT",
     classifiers=[
     	"Topic :: Utilities",
     	"License :: OSI Approved :: MIT License",
@@ -36,11 +34,10 @@ setup(
         'h5py',
         'mdtraj',
         'wepy',
-	    'csnanalysis',
-	    'geomm',
+	'csnanalysis',
+	'geomm',
         'scikit-learn',
         'deeptime',
-	    'pickle',
     ],
 
 )

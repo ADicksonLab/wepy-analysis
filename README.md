@@ -10,6 +10,17 @@ The codebase is organized into five main components:
 
 This repository is under active development and intended for researchers working with WE data, especially those using the Wepy framework.
 
+## Installation
+
+We recommend installing WepyAnalysis with a Python package manager such as conda or mamba.
+One dependency that cannot be currently installed with pip is `csnanalysis`.
+It can be found on github [here](https://github.com/ADicksonLab/CSNAnalysis), along with installation instructions.
+Once `csnanalysis` is installed to your python environment, `wepy-analysis` can be installed with `pip` as follows:
+
+```
+pip install git+https://github.com/ADicksonLab/wepy-analysis
+```
+
 ## Zenodo repository
 Example dataset files can be found at [this link](10.5281/zenodo.15361245). 
 
