@@ -36,6 +36,8 @@ Once `csnanalysis` is installed to your python environment, `wepy-analysis` can 
 pip install git+https://github.com/ADicksonLab/wepy-analysis
 ```
 
+The installation procedure takes around 5 mins to complete at a local desktop.
+
 ## Zenodo repository
 Example dataset files can be found at [this link](https://zenodo.org/records/15361245). 
 
