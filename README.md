@@ -37,6 +37,6 @@ pip install git+https://github.com/ADicksonLab/wepy-analysis
 ```
 
 ## Zenodo repository
-Example dataset files can be found at [this link](10.5281/zenodo.15361245). 
+Example dataset files can be found at [this link](https://zenodo.org/records/15361245). 
 
 
