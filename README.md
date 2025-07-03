@@ -10,11 +10,26 @@ The codebase is organized into five main components:
 
 This repository is under active development and intended for researchers working with WE data, especially those using the Wepy framework.
 
+## System Requirements:
+One dependency that cannot be currently installed with pip is `csnanalysis`. 
+It can be found on github [here](https://github.com/ADicksonLab/CSNAnalysis), along with installation instructions.
+
+Other Python dependencies:
+```
+numpy 
+scipy 
+h5py
+mdtraj
+wepy
+geomm
+scikit-learn
+deeptime
+```
+
 ## Installation
 
 We recommend installing WepyAnalysis with a Python package manager such as conda or mamba.
-One dependency that cannot be currently installed with pip is `csnanalysis`.
-It can be found on github [here](https://github.com/ADicksonLab/CSNAnalysis), along with installation instructions.
+
 Once `csnanalysis` is installed to your python environment, `wepy-analysis` can be installed with `pip` as follows:
 
 ```
