@@ -38,7 +38,7 @@ numpy >= 2.3.1
 scipy >= 1.16.0
 h5py >= 3.14.0
 mdtraj >= 1.11.0
-scikit-learn  >= 1.7.0
+scikit-learn >= 1.7.0
 deeptime >= 0.4.5
 ```
 
