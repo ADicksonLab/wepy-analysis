@@ -20,8 +20,8 @@ numpy
 scipy 
 h5py
 mdtraj
-wepy
-geomm
+wepy >= 1.2
+geomm >= 0.3
 scikit-learn
 deeptime
 ```
