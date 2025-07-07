@@ -31,7 +31,7 @@ which will also install all dependencies. The installation procedure takes less 
 ## Dependencies:
 
 ```
-[wepy](https://github.com/ADicksonLab/wepy) >= 1.2
+[Wepy](https://github.com/ADicksonLab/wepy) >= 1.2
 [geomm](https://github.com/ADicksonLab/geomm) >= 0.3
 [csnanalysis](https://github.com/ADicksonLab/CSNAnalysis) >= 0.6.0
 numpy >= 2.3.1
