@@ -26,7 +26,7 @@ Once your python environment is ready, `wepy-analysis` can be installed with `pi
 pip install git+https://github.com/ADicksonLab/wepy-analysis
 ```
 
-which will also install all dependencies. The installation procedure takes less than a minute to complete at a local desktop.
+which will also install all dependencies. The installation procedure takes less than 10 seconds to complete at a local desktop.
 
 ## Dependencies:
 
