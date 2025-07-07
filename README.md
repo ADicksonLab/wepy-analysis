@@ -20,28 +20,26 @@ conda create -n wepy-analysis python=3.12
 conda activate wepy-analysis
 ```
 
-Once `csnanalysis` is installed to your python environment, `wepy-analysis` can be installed with `pip` as follows:
+Once your python environment is ready, `wepy-analysis` can be installed with `pip` as follows:
 
 ```
 pip install git+https://github.com/ADicksonLab/wepy-analysis
 ```
 
-The installation procedure takes around 5 mins to complete at a local desktop.
+which will also install all dependencies. The installation procedure takes less than a minute to complete at a local desktop.
 
-## System Requirements:
-One dependency that cannot be currently installed with pip is `csnanalysis`. 
-It can be found on github [here](https://github.com/ADicksonLab/CSNAnalysis), along with installation instructions.
+## Dependencies:
 
-Other Python dependencies:
 ```
-numpy 
-scipy 
-h5py
-mdtraj
-wepy >= 1.2
-geomm >= 0.3
+[wepy]((https://github.com/ADicksonLab/wepy)) >= 1.2
+[geomm](https://github.com/ADicksonLab/geomm) >= 0.3
+[csnanalysis](https://github.com/ADicksonLab/CSNAnalysis) >= 0.6.0
+numpy >= 2.3.1
+scipy >= 1.16.0
+h5py >= 3.14.0
+mdtraj >= 1.11.0
 scikit-learn
-deeptime
+deeptime >= 0.4.5
 ```
 
 ## Zenodo repository
