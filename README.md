@@ -1,6 +1,6 @@
 # WepyAnalysis
 
-WepyAnalysis is a modular toolkit for analyzing data generated from Weighted Ensemble (WE) simulations using the Wepy framework.
+WepyAnalysis is a modular toolkit for analyzing data generated from Weighted Ensemble (WE) simulations using the [Wepy](https://github.com/ADicksonLab/wepy) framework.
 
 The codebase is organized into five main components:
 - `featurization/`: Tools for extracting structural features from WE data
