@@ -10,6 +10,24 @@ The codebase is organized into five main components:
 
 This repository is under active development and intended for researchers working with WE data, especially those using the Wepy framework.
 
+
+## Installation
+
+We recommend installing WepyAnalysis with a Python package manager such as conda or mamba. The package is tested and fully compatible with Python 3.12, and we strongly encourage using python>=3.10 for compatibility.
+
+```
+conda create -n wepy-analysis python=3.12
+conda activate wepy-analysis
+```
+
+Once `csnanalysis` is installed to your python environment, `wepy-analysis` can be installed with `pip` as follows:
+
+```
+pip install git+https://github.com/ADicksonLab/wepy-analysis
+```
+
+The installation procedure takes around 5 mins to complete at a local desktop.
+
 ## System Requirements:
 One dependency that cannot be currently installed with pip is `csnanalysis`. 
 It can be found on github [here](https://github.com/ADicksonLab/CSNAnalysis), along with installation instructions.
@@ -25,23 +43,6 @@ geomm >= 0.3
 scikit-learn
 deeptime
 ```
-
-## Installation
-
-We recommend installing WepyAnalysis with a Python package manager such as conda or mamba with a conda environment using `python=3.10` or greater. All of the codes are tested for `python=3.12`.
-
-```
-conda create -n wepy-analysis python=3.12
-conda activate wepy-analysis
-```
-
-Once `csnanalysis` is installed to your python environment, `wepy-analysis` can be installed with `pip` as follows:
-
-```
-pip install git+https://github.com/ADicksonLab/wepy-analysis
-```
-
-The installation procedure takes around 5 mins to complete at a local desktop.
 
 ## Zenodo repository
 Example dataset files can be found at [this link](https://zenodo.org/records/15361245). 
