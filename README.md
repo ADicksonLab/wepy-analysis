@@ -28,7 +28,12 @@ deeptime
 
 ## Installation
 
-We recommend installing WepyAnalysis with a Python package manager such as conda or mamba.
+We recommend installing WepyAnalysis with a Python package manager such as conda or mamba with a conda environment using `python=3.10` or greater. All of the codes are tested for `python=3.12`.
+
+```
+conda create -n wepy-analysis python=3.12
+conda activate wepy-analysis
+```
 
 Once `csnanalysis` is installed to your python environment, `wepy-analysis` can be installed with `pip` as follows:
 
