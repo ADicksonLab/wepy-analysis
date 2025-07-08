@@ -13,7 +13,7 @@ This repository is under active development and intended for researchers working
 
 ## Installation
 
-We recommend installing WepyAnalysis with a Python package manager such as conda or mamba. The package is tested and fully compatible with Python 3.12, and we strongly encourage using python>=3.10 for compatibility.
+We recommend installing WepyAnalysis with a Python package manager such as conda or mamba. The package is tested and fully compatible with ```Python 3.12```, and we strongly encourage using ```python>=3.10``` for compatibility.
 
 ```
 conda create -n wepy-analysis python=3.12
