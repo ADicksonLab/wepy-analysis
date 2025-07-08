@@ -44,7 +44,7 @@ deeptime >= 0.4.5
 
 ## More Information
 - Example dataset files can be found at current [Zenodo DOI](https://zenodo.org/records/15361245)
-- This repository is a part of the preprint ["Determinants of Improved CGRP Peptide Binding Kinetics Revealed by Enhanced Molecular Simulations"](https://www.biorxiv.org/content/10.1101/2025.06.13.659569v1) and can be used to reproduce the results of it. 
+- This repository is a part of the preprint ["Determinants of Improved CGRP Peptide Binding Kinetics Revealed by Enhanced Molecular Simulations"](https://www.biorxiv.org/content/10.1101/2025.06.13.659569v1) and can be used to build MSMs explained in the paper. 
 
 
 
