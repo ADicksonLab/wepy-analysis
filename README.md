@@ -31,9 +31,9 @@ which will also install all dependencies. The installation procedure takes less 
 ## Dependencies:
 
 ```
-[Wepy](https://github.com/ADicksonLab/wepy) >= 1.2
-[geomm](https://github.com/ADicksonLab/geomm) >= 0.3
-[csnanalysis](https://github.com/ADicksonLab/CSNAnalysis) >= 0.6.0
+Wepy (https://github.com/ADicksonLab/wepy) >= 1.2
+geomm (https://github.com/ADicksonLab/geomm) >= 0.3
+csnanalysis (https://github.com/ADicksonLab/CSNAnalysis) >= 0.6.0
 numpy >= 2.3.1
 scipy >= 1.16.0
 h5py >= 3.14.0
