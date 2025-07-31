@@ -74,7 +74,7 @@ for i, wepy_file in enumerate(wepy_files):
     ligand_idxs = [p.top.select('segname PROC') for p in PDBS] #CGRP and ssCGRP
     pair_list_min_dist_clr_ligand = [(clr_bs_idxs, ligand_idxs)] 
     min_dist = feature_generator.call_compute_min_dist(group1 = pair_list_min_dist_clr_ligand[0][0],
-                                                        group2 = pair_list_min_dist_clr_ligand[0][1] 
+                                                        group2 = pair_list_min_dist_clr_ligand[0][1], 
                                                         out_file_name = f'min_dist_clr_ligand_{i}.npy',
                                                         out_folder_name= output_path, 
                                                         save_file=True)
